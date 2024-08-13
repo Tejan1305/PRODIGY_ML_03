@@ -29,8 +29,8 @@ def save_predictions_to_csv(predictions, output_file='submission.csv'):
     print(f"Predictions saved to {output_file}")
 
 # Paths to the dataset folders
-cat_folder = 'D:/train'
-dog_folder = 'C:/Users/dteja/AppData/Local/Temp/1491ee13-245d-4a81-972b-fe4610c453c6_dogs-vs-cats.zip.3c6/test1.zip'
+cat_folder = 'add cat folder here'
+dog_folder = 'add dog folder here'
 
 # Load cat images
 cat_images, cat_labels = load_images_from_folder(cat_folder, label=0)  # label 0 for cats
